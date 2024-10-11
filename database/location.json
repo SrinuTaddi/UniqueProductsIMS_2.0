@@ -1,0 +1,28 @@
+{
+    "locations" : [
+        {
+            "loc_id" : "L01",
+            "loc_name" : "Ponduru",
+            "loc_pin" : 535101,
+            "no_of_shops" : "5"
+        },
+        {
+            "loc_id" : "L02",
+            "loc_name" : "Etikoppaka",
+            "loc_pin" : 535102,
+            "no_of_shops" : "5"
+        },
+        {
+            "loc_id" : "L03",
+            "loc_name" : "Budithi",
+            "loc_pin" : 535103,
+            "no_of_shops" : "5"
+        },
+        {
+            "loc_id" : "L04",
+            "loc_name" : "Bobbili",
+            "loc_pin" : 535104,
+            "no_of_shops" : "5"
+        }
+    ]
+}

@@ -1,0 +1,2472 @@
+{
+    "locations" : [
+        {
+            "loc_id" : "L01",
+            "loc_name" : "Ponduru",
+            "loc_pin" : 535101,
+            "no_of_shops" : "5"
+        },
+        {
+            "loc_id" : "L02",
+            "loc_name" : "Etikoppaka",
+            "loc_pin" : 535102,
+            "no_of_shops" : "5"
+        },
+        {
+            "loc_id" : "L03",
+            "loc_name" : "Budithi",
+            "loc_pin" : 535103,
+            "no_of_shops" : "5"
+        },
+        {
+            "loc_id" : "L04",
+            "loc_name" : "Bobbili",
+            "loc_pin" : 535104,
+            "no_of_shops" : "5"
+        }
+    ],
+    
+    "shops": [
+        {
+            "shop_id": "S01",
+            "loc_id": "L01",
+            "shop_name": "Raju Khadi Works",
+            "shop_address": "Ponduru",
+            "shop_owner": "Raju",
+            "shop_items": [
+                {
+                    "item_id": "L1S1I01",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1S1I02",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1S1I03",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1S1I04",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1S1I05",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1S1I06",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1SI07",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1S1I08",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id":"L1S1I09",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S1I10",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S1I11",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S1I12",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S1I13",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S1I14",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S1I15",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S1I16",
+                    "item_name": "hsdfba",
+                    "item_price": "525",
+                    "item_size": "small",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S02",
+            "loc_id": "L01",
+            "shop_name": "Surya Khadi Works",
+            "shop_address": "Ponduru",
+            "shop_owner": "Surya",
+            "shop_items": [
+                {
+                    "item_id": "L1S2I01",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I02",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I03",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I04",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I05",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I06",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I07",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I08",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I09",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I10",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I11",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I12",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I13",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I14",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I15",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I16",
+                    "item_name": "Handloom Tomato Red Cotton Saree",
+                    "item_price": "RS. 200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I17",
+                    "item_name": "Handloom Tomato Red Cotton Saree",
+                    "item_price": "RS. 400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S2I18",
+                    "item_name": "Handloom Tomato Red Cotton Saree",
+                    "item_price": "RS. 500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S03",
+            "loc_id": "L01",
+            "shop_name": "Chiru Khadi Works",
+            "shop_address": "Ponduru",
+            "shop_owner": "Chiru",
+            "shop_items": [
+                {
+                    "item_id": "L1S3I01",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I02",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I03",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I04",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I05",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I06",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I07",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I08",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I09",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I10",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I11",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I12",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I13",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I14",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S3I15",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S04",
+            "loc_id": "L01",
+            "shop_name": "Vikram Khadi Works",
+            "shop_address": "Ponduru",
+            "shop_owner": "Vikram",
+            "shop_items": [
+                {
+                    "item_id": "L1S4I01",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I02",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I03",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I04",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I05",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I06",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I07",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I08",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I09",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I11",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I12",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I13",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I14",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I15",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S4I10",
+                    "item_name": "Handloom Tomato Red Cotton Saree",
+                    "item_price": "RS. 500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S05",
+            "loc_id": "L01",
+            "shop_name": "Bruce Khadi Works",
+            "shop_address": "Ponduru",
+            "shop_owner": "Bruce",
+            "shop_items": [
+                {
+                    "item_id": "L1S5I01",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I02",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I03",
+                    "item_name": "Handloom Blue Colored Cotton Saree",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I04",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I05",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I06",
+                    "item_name": "Handloom Pink Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I07",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I08",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I09",
+                    "item_name": "Handloom White Colored Cotton Saree",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I10",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I11",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I12",
+                    "item_name": "Handloom Orange Colored Cotton Saree",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I13",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I14",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I15",
+                    "item_name": "Handloom Green Colored Cotton Saree With Blouse",
+                    "item_price": "Rs. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I16",
+                    "item_name": "Handloom Tomato Red Cotton Saree",
+                    "item_price": "Rs. 300",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I17",
+                    "item_name": "Handloom Tomato Red Cotton Saree",
+                    "item_price": "Rs. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L1S5I20",
+                    "item_name": "Nothing",
+                    "item_price": "Rs.5250",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S06",
+            "loc_id": "L02",
+            "shop_name": "Raju Wooden Toys",
+            "shop_address": "Etikoppaka",
+            "shop_owner": "Raju",
+            "shop_items": [
+                {
+                    "item_id": "L2S6I01",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I02",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I03",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I04",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I05",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I06",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I07",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I08",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I09",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I10",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I11",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I12",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I13",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I14",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S6I15",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S07",
+            "loc_id": "L02",
+            "shop_name": "Surya Wooden Toys",
+            "shop_address": "Etikoppaka",
+            "shop_owner": "Surya",
+            "shop_items": [
+                {
+                    "item_id": "L2S7I01",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I02",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I03",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I04",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I05",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I06",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I07",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I08",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I09",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I10",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I11",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I12",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I13",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I14",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I15",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I16",
+                    "item_name": "Flute",
+                    "item_price": "RS. 200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I17",
+                    "item_name": "Flute",
+                    "item_price": "RS. 400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S7I18",
+                    "item_name": "Flute",
+                    "item_price": "RS. 500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S08",
+            "loc_id": "L02",
+            "shop_name": "Chiru Wooden Toys",
+            "shop_address": "Etikoppaka",
+            "shop_owner": "Chiru",
+            "shop_items": [
+                {
+                    "item_id": "L2S8I01",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I02",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I03",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I04",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I05",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I06",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I07",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I08",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I09",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I10",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I11",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I12",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I13",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I14",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S8I15",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S09",
+            "loc_id": "L02",
+            "shop_name": "Vikram Wooden Toys",
+            "shop_address": "Etikoppaka",
+            "shop_owner": "Vikram",
+            "shop_items": [
+                {
+                    "item_id": "L2S9I01",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I02",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I03",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I04",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I05",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I06",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I07",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I08",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I09",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I10",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I11",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I12",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I13",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I14",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I15",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I16",
+                    "item_name": "Flute",
+                    "item_price": "RS. 200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I17",
+                    "item_name": "Flute",
+                    "item_price": "RS. 400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S9I18",
+                    "item_name": "Flute",
+                    "item_price": "RS. 500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S10",
+            "loc_id": "L02",
+            "shop_name": "Bruce Wooden Toys",
+            "shop_address": "Etikoppaka",
+            "shop_owner": "Bruce",
+            "shop_items": [
+                {
+                    "item_id": "L2S10I01",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I02",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I03",
+                    "item_name": "Marriage Couple Idols",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I04",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I05",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I06",
+                    "item_name": "Lord Radha Krishna",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I07",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I08",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I09",
+                    "item_name": "Lord Ganesh",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I10",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I11",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I12",
+                    "item_name": "Laughing Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I13",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I14",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L2S10I15",
+                    "item_name": "Lord Gouthama Budda",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S11",
+            "loc_id": "L03",
+            "shop_name": "Raju Brass Works",
+            "shop_address": "Budithi",
+            "shop_owner": "Raju",
+            "shop_items": [
+                {
+                    "item_id": "L3S11I01",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I02",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I03",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I04",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I05",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I06",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I07",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I08",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I09",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I10",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I11",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I12",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I13",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I14",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I15",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S11I16",
+                    "item_name": "hsdfba",
+                    "item_price": "525",
+                    "item_size": "small",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S12",
+            "loc_id": "L03",
+            "shop_name": "Surya Brass Works",
+            "shop_address": "Budithi",
+            "shop_owner": "Surya",
+            "shop_items": [
+                {
+                    "item_id": "L3S12I01",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I02",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I03",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I04",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I05",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I06",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I07",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I08",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I09",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I10",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I11",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I12",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I13",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I14",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I15",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I16",
+                    "item_name": "Brass Aftab",
+                    "item_price": "RS. 200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I17",
+                    "item_name": "Brass Aftab",
+                    "item_price": "RS. 400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S12I18",
+                    "item_name": "Brass Aftab",
+                    "item_price": "RS. 500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S13",
+            "loc_id": "L03",
+            "shop_name": "Chiru Brass Works",
+            "shop_address": "Budithi",
+            "shop_owner": "Chiru",
+            "shop_items": [
+                {
+                    "item_id": "L3S13I01",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I02",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I03",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I04",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I05",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I06",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I07",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I08",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I09",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I10",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I11",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I12",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I13",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I14",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S13I15",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S14",
+            "loc_id": "L03",
+            "shop_name": "Vikram Brass Works",
+            "shop_address": "Budithi",
+            "shop_owner": "Vikram",
+            "shop_items": [
+                {
+                    "item_id": "L3S14I01",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I02",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I03",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I04",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I05",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I06",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I07",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I08",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I09",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I10",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I11",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I12",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I13",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I14",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I15",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I16",
+                    "item_name": "Brass Aftab",
+                    "item_price": "RS. 200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I17",
+                    "item_name": "Brass Aftab",
+                    "item_price": "RS. 400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I18",
+                    "item_name": "Brass Aftab",
+                    "item_price": "RS. 500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S15",
+            "loc_id": "L03",
+            "shop_name": "Bruce Brass Works",
+            "shop_address": "Budithi",
+            "shop_owner": "Bruce",
+            "shop_items": [
+                {
+                    "item_id": "L3S14I01",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 1500",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I02",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 3000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I03",
+                    "item_name": "Brass Diya",
+                    "item_price": "RS. 4500",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I04",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I05",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I06",
+                    "item_name": "Brass Bell",
+                    "item_price": "RS. 1000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I07",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 1000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I08",
+                    "item_name": "Brass Kalash",
+                    "item_price": "RS. 2000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I09",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 3000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I10",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 800",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I11",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 1600",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I12",
+                    "item_name": "Brass Flower Vase",
+                    "item_price": "RS. 2400",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I13",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 1200",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I14",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 2400",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L3S14I15",
+                    "item_name": "Brass Dagger",
+                    "item_price": "RS. 3600",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S16",
+            "loc_id": "L04",
+            "shop_name": "Raju Traditional Veena",
+            "shop_address": "Bobbili",
+            "shop_owner": "Raju",
+            "shop_items": [
+                {
+                    "item_id": "L4S16I01",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 15000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I02",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I03",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 45000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I04",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I05",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I06",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I07",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I08",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I09",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I10",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 8000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I11",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 16000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I12",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I13",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 12000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I14",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S16I15",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 36000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S17",
+            "loc_id": "L04",
+            "shop_name": "Surya Traditional Veena",
+            "shop_address": "Bobbili",
+            "shop_owner": "Surya",
+            "shop_items": [
+                {
+                    "item_id": "L4S17I01",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 15000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I02",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I03",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 45000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I04",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I05",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I06",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I07",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I08",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I09",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I10",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 8000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I11",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 16000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I12",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I13",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 12000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I14",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I15",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 36000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I16",
+                    "item_name": "Mohan Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I17",
+                    "item_name": "Mohan Veena",
+                    "item_price": "RS. 40000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S17I18",
+                    "item_name": "Mohan Veena",
+                    "item_price": "RS. 50000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S18",
+            "loc_id": "L04",
+            "shop_name": "Chiru Traditional Veena",
+            "shop_address": "Bobbili",
+            "shop_owner": "Chiru",
+            "shop_items": [
+                {
+                    "item_id": "L4S18I01",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 15000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I02",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I03",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 45000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I04",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I05",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I06",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I07",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I08",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I09",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I10",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 8000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I11",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 16000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I12",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I13",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 12000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I14",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S18I15",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 36000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S19",
+            "loc_id": "L04",
+            "shop_name": "Vikram Traditional Veena",
+            "shop_address": "Bobbili",
+            "shop_owner": "Vikram",
+            "shop_items": [
+                {
+                    "item_id": "L4S19I01",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 15000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I02",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I03",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 45000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I04",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I05",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I06",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I07",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I08",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I09",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I10",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 8000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I11",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 16000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I12",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I13",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 12000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I14",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I15",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 36000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S19I16",
+                    "item_name": "Mohan Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                }
+            ]
+        },
+        {
+            "shop_id": "S20",
+            "loc_id": "L04",
+            "shop_name": "Bruce Traditional Veena",
+            "shop_address": "Bobbili",
+            "shop_owner": "Bruce",
+            "shop_items": [
+                {
+                    "item_id": "L4S20I01",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 15000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I02",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I03",
+                    "item_name": "Rudra Veena",
+                    "item_price": "RS. 45000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I04",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I05",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I06",
+                    "item_name": "Saraswathi Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I07",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 10000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I08",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 20000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I09",
+                    "item_name": "Chitra Veena",
+                    "item_price": "RS. 30000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I10",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 8000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I11",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 16000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I12",
+                    "item_name": "Vichitra Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Large",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I13",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 12000",
+                    "item_size": "Small",
+                    "item_quantity": 2
+                },
+                {
+                    "item_id": "L4S20I14",
+                    "item_name": "Pinaki Veena",
+                    "item_price": "RS. 24000",
+                    "item_size": "Medium",
+                    "item_quantity": 2
+                }
+            ]
+        }
+    ]
+}

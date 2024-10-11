@@ -1,0 +1,108 @@
+{ 
+    "shop_owners": [
+                {
+                    "owner_id": "O1",
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "shop_id" : ["S01","S06","S11","S16"],
+                    "owner_name": "Raju",
+                    "username": "raju",
+                    "password": "rajupass"
+                },
+                {
+                    "owner_id":"O2",
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "shop_id" : ["S02","S07","S12", "S17"],
+                    "owner_name": "Surya",
+                    "username": "surya",
+                    "password": "suryapass"
+                },
+                {
+                    "owner_id": "O3",
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "shop_id" : ["S03","S08","S13", "S18"],
+                    "owner_name": "Chiru",
+                    "username": "chiru",
+                    "password": "chirupass"
+                },
+                {
+                    "owner_id": "O4",
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "shop_id" : ["S04","S09","S14", "S19"],
+                    "owner_name": "Vikram",
+                    "username": "vikram",
+                    "password": "vikrampass"
+                },
+                {
+                    "owner_id": "O5",
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "shop_id" : ["S05","S10","S15", "S20"],
+                    "owner_name": "Bruce",
+                    "username": "bruce",
+                    "password": "brucepass"
+                }
+            ],
+
+    "customers": [
+                {
+                    "user_id": 1,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user1",
+                    "password": "userpass1"
+                },
+                {
+                    "user_id": 2,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user2",
+                    "password": "userpass2"
+                },
+                {
+                    "user_id": 3,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user3",
+                    "password": "userpass3"
+                },
+                {
+                    "user_id": 4,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user4",
+                    "password": "userpass4"
+                },
+                {
+                    "user_id": 5,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user5",
+                    "password": "userpass5"
+                },
+                {
+                    "user_id": 6,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user6",
+                    "password": "userpass6"
+                },
+                {
+                    "user_id": 7,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user7",
+                    "password": "userpass7"
+                },
+                {
+                    "user_id": 8,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user8",
+                    "password": "userpass8"
+                },
+                {
+                    "user_id": 9,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user9",
+                    "password": "userpass9"
+                },
+                {
+                    "user_id": 10,
+                    "loc_id" : ["L01","L02","L03","L04"],
+                    "username": "user10",
+                    "password": "userpass10"
+                }
+        ]
+
+}
