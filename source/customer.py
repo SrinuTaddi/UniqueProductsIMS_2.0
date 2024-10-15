@@ -1,6 +1,19 @@
 import json
 import sys 
 
+class Shop:
+
+    def shop_details(loc_id):
+        with open("database/shops.json", "r") as shop_file:
+            shop_data = json.load(shop_file)
+        for shop in shop_data["shop_details"]:
+            if loc_id == shop['loc_id']:
+                print("\n----- Shop's Info -----\n")
+                print(f"\nShop Name: {shop['shop_name']} \nShop Id: {shop['shop_id']}\nShop Owner: {shop['shop_owner']}\nShop Address: {shop['shop_address']}\n")
+                print("Items: \n")
+                for items in shop["shop_items"]:
+                    print(f"Id: {items['item_id']}, Name: {items['item_name']}, Price: {items['item_price']}, Size: {items['item_size']}, Quantity: {items['item_quantity']}\n")
+        return shop['shop_id'], loc_id
 
 class Location:
 
@@ -17,7 +30,8 @@ class Location:
                 loc_id = loc['loc_id']
                 Shop.shop_details(loc_id)
         if not location_found:
-            print("Invalid Location ID !")
+            print("Invalid Location PIN !")
+        return loc_id
 
 
     def display_loc_id():
@@ -34,39 +48,28 @@ class Location:
                 Shop.shop_details(loc_id)
         if not location_found:
             print("Invalid Location ID !")
-
-class Shop:
-
-    def shop_details(loc_id):
-        with open("database/shops.json", "r") as shop_file:
-            shop_data = json.load(shop_file)
-        for shop in shop_data["shops"]:
-            if loc_id == shop['loc_id']:
-                print("\n----- Shop's Info -----\n")
-                print(f"\nShop Name: {shop['shop_name']} \nShop Id: {shop['shop_id']}\nShop Owner: {shop['shop_owner']}\nShop Address: {shop['shop_address']}\n")
-                print("Items: \n")
-                for items in shop["shop_items"]:
-                    print(f"Id: {items['item_id']}, Name: {items['item_name']}, Price: {items['item_price']}, Size: {items['item_size']}, Quantity: {items['item_quantity']}\n")
-
+        return loc_id
 
 class PlaceOrder:
     def place_order(loc_id):
         with open("database/shops.json", "r") as shop_file:
             shop_data = json.load(shop_file)
-
-        shop_id = input("Enter shop id: ")
-        shop_found = None
-        for shop in shop_data['shops']:
-            if shop['loc_id'] == loc_id and shop['shop_id'] == shop_id:
-                shop_found = shop
+        shop_id = input("Enter shop id: ").strip()
+        shop_found = False
+        for shop in shop_data['shop_details']:
+            if shop_id == shop['shop_id']:
+                shop_found = True
+                item_found = False
                 item_id = input("Enter item id: ").strip()
                 for item in shop['shop_items']:
                     if item['item_id'] == item_id:
+                        item_found = True
                         print(f"Item name : {item['item_name']}, Order placed successfully!")
-                        break
+                if not item_found:
+                    print("Invalid item id !")
         if not shop_found:
             print("invalid shop details!")
-
+    
 
 
 class UserValidation:
@@ -81,7 +84,7 @@ class UserValidation:
         for usr in users_data:
             if username == usr["username"] and password == usr["password"]:
                     user_details = True
-                    print(f"\nWelcome To Unnique Products, {username} !\n")
+                    print(f"\nWelcome To Unique Products, {username} !\n")
                     # print("\nWelcome To Unique Products Store !\n")
                     # print("Choose One: ")
                     # print("1. Do you want to continue with your Location PIN.\n")
@@ -93,14 +96,9 @@ class UserValidation:
                     #     Location.get_loc()
                     # else:
                     #     print("Invalid choice. Please try again.")
+ 
+                    return True
 
         if not user_details:
             print("User not found!")
         return user_details
-
-username = input("Enter Username: ").strip()
-password = input("Enter Password: ").strip()
-
-UserValidation.valid_user(username, password)
-
-

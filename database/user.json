@@ -44,61 +44,61 @@
 
     "customers": [
                 {
-                    "user_id": 1,
+                    "user_id": "U1",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user1",
                     "password": "userpass1"
                 },
                 {
-                    "user_id": 2,
+                    "user_id": "U2",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user2",
                     "password": "userpass2"
                 },
                 {
-                    "user_id": 3,
+                    "user_id": "U3",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user3",
                     "password": "userpass3"
                 },
                 {
-                    "user_id": 4,
+                    "user_id": "U4",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user4",
                     "password": "userpass4"
                 },
                 {
-                    "user_id": 5,
+                    "user_id": "U5",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user5",
                     "password": "userpass5"
                 },
                 {
-                    "user_id": 6,
+                    "user_id": "U6",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user6",
                     "password": "userpass6"
                 },
                 {
-                    "user_id": 7,
+                    "user_id": "U7",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user7",
                     "password": "userpass7"
                 },
                 {
-                    "user_id": 8,
+                    "user_id": "U8",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user8",
                     "password": "userpass8"
                 },
                 {
-                    "user_id": 9,
+                    "user_id": "U9",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user9",
                     "password": "userpass9"
                 },
                 {
-                    "user_id": 10,
+                    "user_id": "U10",
                     "loc_id" : ["L01","L02","L03","L04"],
                     "username": "user10",
                     "password": "userpass10"

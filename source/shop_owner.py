@@ -1,5 +1,5 @@
 import json 
-import sys
+# from customer import *
 
 """ I'm commmenting the below class of the code, I'm already using the below class in my previous file(customer.py), so i can access it from my 'main.py' file. """
 
@@ -29,66 +29,68 @@ import sys
 #                     #     print("Invalid choice. Please try again.")
 #         if not user_details:
 #             print("User not found!")
-#         return user_details
-
-class Location:
-
-    def display_loc_pin():
-   
-        with open("database/shops.json", "r") as loc_file:
-            loc_data = json.load(loc_file)
-        for pins in loc_data['locations']:
-            print(f"{pins['loc_name']} - PIN : {pins['loc_pin']}")
-        location_found = False
-        loc_pin = input("\nEnter your location PIN to view Location details: ")
-        for loc in loc_data['locations']:
-            if str(loc['loc_pin']) == loc_pin:
-                location_found = True
-                loc_id = loc['loc_id']
-                Shop.shop_details(loc_id)
-        if not location_found:
-            print("Invalid Location ID !")
-
-
-    def display_loc_id():
-        with open("database/shops.json", "r") as loc_file:
-            loc_data = json.load(loc_file)
-        for location in loc_data['locations']:
-            print(f"{location['loc_name']} - Location ID : {location['loc_id']}")
-        location_found = False
-        location_id = input("\nEnter your location id to view Location details: ")
-        for loc in loc_data['locations']:
-            if loc['loc_id'] == location_id:
-                location_found = True
-                loc_id = loc['loc_id']
-                Shop.shop_details(loc_id)
-        if not location_found:
-            print("Invalid Location ID !")
-
+# #         return user_details
 class Shop:
 
-    def shop_details(loc_id):
+    def shop_details(loc_id, shop_id):
         with open("database/shops.json", "r") as shop_file:
             shop_data = json.load(shop_file)
-        for shop in shop_data["shops"]:
-            if loc_id == shop['loc_id']:
+        for shop in shop_data["shop_details"]:
+            if loc_id == shop['loc_id'] and shop['shop_id'] in shop_id:
                 print("\n----- Shop's Info -----\n")
                 print(f"\nShop Name: {shop['shop_name']} \nShop Id: {shop['shop_id']}\nShop Owner: {shop['shop_owner']}\nShop Address: {shop['shop_address']}\n")
                 print("Items: \n")
                 for items in shop["shop_items"]:
                     print(f"Id: {items['item_id']}, Name: {items['item_name']}, Price: {items['item_price']}, Size: {items['item_size']}, Quantity: {items['item_quantity']}\n")
-        return shop['shop_id']
+        return shop['shop_id'], loc_id
+
+# class Location:
+
+#     def display_loc_pin():
+   
+#         with open("database/shops.json", "r") as loc_file:
+#             loc_data = json.load(loc_file)
+#         for pins in loc_data['locations']:
+#             print(f"{pins['loc_name']} - PIN : {pins['loc_pin']}")
+#         location_found = False
+#         loc_pin = input("\nEnter your location PIN to view Location details: ")
+#         for loc in loc_data['locations']:
+#             if str(loc['loc_pin']) == loc_pin:
+#                 location_found = True
+#                 loc_id = loc['loc_id']
+#                 Shop.shop_details(loc_id)
+#         if not location_found:
+#             print("Invalid Location ID !")
+
+
+#     def display_loc_id():
+#         with open("database/shops.json", "r") as loc_file:
+#             loc_data = json.load(loc_file)
+#         for location in loc_data['locations']:
+#             print(f"{location['loc_name']} - Location ID : {location['loc_id']}")
+#         location_found = False
+#         location_id = input("\nEnter your location id to view Location details: ")
+#         for loc in loc_data['locations']:
+#             if loc['loc_id'] == location_id:
+#                 location_found = True
+#                 loc_id = loc['loc_id']
+#                 Shop.shop_details(loc_id)
+#         if not location_found:
+#             print("Invalid Location ID !")
+
 
 
 class AddItem:
     def add_new_item(loc_id, shop_id):
         with open("database/shops.json", "r") as shop_file:
             shop_data = json.load(shop_file)
-        shop_id = Shop.shop_details(loc_id)
+        # loc_id = input("Enter Loc-ID: ").strip()
+        # shop_id = Shop.shop_details(loc_id)
         shop_found = False
-        for shop in shop_data['shops']:
-            if shop['loc_id'] == loc_id and shop["shop_id"] == shop_id:
+        for shop in shop_data['shop_details']:
+            if shop['loc_id'] == loc_id and shop["shop_id"] in shop_id:
                 shop_found = True
+                Shop.shop_details(loc_id, shop_id)
                 item_id = input("Enter item id: ")
                 item_name = input("Enter item name: ")
                 item_price = input("Enter item price: ")
@@ -105,6 +107,7 @@ class AddItem:
                 with open("database/shops.json", "w") as shop_f:
                     json.dump(shop_data, shop_f, indent=4)
                 print(f"{item_name} is added to the {shop['shop_name']} shop.")
+                break
         if not shop_found:
             print("Shop not found. Please try again.")
 
@@ -113,11 +116,12 @@ class DeleteItem:
     def delete_item(loc_id, shop_id):
         with open("database/shops.json", "r") as shop_file:
             shop_data = json.load(shop_file)
-        shop_id = Shop.shop_details(loc_id)
+        # shop_id = Shop.shop_details(loc_id)
         shop_found = False
-        for shop in shop_data["shops"]:
-            if shop['loc_id'] == loc_id and shop["shop_id"] == shop_id:
+        for shop in shop_data["shop_details"]:
+            if shop['loc_id'] == loc_id and shop["shop_id"] in shop_id:
                 shop_found = True
+                Shop.shop_details(loc_id, shop_id)
                 item_id = input("Enter item id: ").strip()
                 item_found = False
                 for item in shop["shop_items"]:
@@ -126,7 +130,8 @@ class DeleteItem:
                         shop["shop_items"].remove(item)
                         with open("database/shops.json", "w") as shop_file:
                             json.dump(shop_data, shop_file, indent=4)
-                        print(f"Item id : {item['item_id']} is deleted from the items list.")
+                        print(f"Item : {item['item_name']} is deleted from the items list.")
+                        break
                 if not item_found:
                     print("Item not found. Please try again.")
         if not shop_found:
@@ -137,11 +142,12 @@ class UpdateItem:
     def update_item(loc_id, shop_id):
         with open("database/shops.json") as shop_file:
             shop_data = json.load(shop_file)
-        shop_id = Shop.shop_details(loc_id)
+        # shop_id = Shop.shop_details(loc_id)
         shop_found = False
-        for shop in shop_data['shops']:
-            if shop['loc_id'] == loc_id and shop['shop_id'] == shop_id:
+        for shop in shop_data['shop_details']:
+            if shop['loc_id'] == loc_id and shop['shop_id'] in shop_id:
                 shop_found = True
+                Shop.shop_details(loc_id, shop_id)
                 item_id = input("Enter item id: ").strip()
                 item_found = False
                 for item in shop['shop_items']:
